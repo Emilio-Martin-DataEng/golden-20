@@ -6,6 +6,8 @@ Is your AI dashboard right? 20 business questions with answers proven two indepe
 
 Claude (Opus 5.5) via claude.ai and the BigQuery connector, on the raw tables, 2026-10-09: **20 / 20**. See [results/](results/2026-10-09-claude-opus-5.5.md).
 
+The same method on a client's call-out data, three models: [I gave Claude Dashboards a 17-question exam](https://www.factsmith.co.za/insights/claude-dashboards-golden-questions/).
+
 ## Method
 
 - Each golden answer is one query on a Kimball star (`wwi`) and an independent query on OLTP-shaped raw tables (`wwi_raw`). It counts only if both agree.
@@ -45,7 +47,8 @@ Uses a free BigQuery sandbox. You need Python 3.10+, the gcloud SDK and a projec
    }
    ```
 
-4. Compute the golden answers: `python golden20.py golden20.csv your-project`. Every row should say `raw_agrees` yes, and the file should match the committed `golden20.csv`.
+4. Compute the golden answers: `python golden20.py out/golden20.csv your-project`. Every row should say `raw_agrees` yes.
+5. Check them against the committed answers: `git diff --no-index golden20.csv out/golden20.csv` should print nothing.
 
 ## Test your own tool
 
