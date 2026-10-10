@@ -1,0 +1,21 @@
+qid,question,definition,golden,raw_agrees
+Q01,What was revenue in September 2026?,"Invoiced, excluding tax.",4745125.35,yes
+Q02,What was revenue in 2025?,"Calendar year 2025, invoiced, excluding tax.",35140904.05,yes
+Q03,What was gross profit in September 2026?,Sum of line profit on invoices.,2315663.9,yes
+Q04,What was our gross margin in 2025?,"Profit / revenue excluding tax, as a percentage.",49.91,yes
+Q05,How many invoices did we issue in September 2026?,Distinct invoices.,1842,yes
+Q06,What was the average invoice value in September 2026?,Revenue excluding tax / distinct invoices.,2576.07,yes
+Q07,How many units did we sell in September 2026?,Invoiced quantity.,258716,yes
+Q08,Which product earned the most revenue in 2025?,Stock item by revenue excluding tax.,Air cushion machine (Blue) | 2210436,yes
+Q09,Which buying group brought in the most revenue in 2025?,Named buying groups only; customers with no group ('N/A') are not a group.,Tailspin Toys | 17422095.9,yes
+Q10,Which customer category brought in the most revenue in 2025?,Customer category by revenue excluding tax; unknown customers excluded.,Novelty Shop | 34570905.85,yes
+Q11,How many customers bought from us in September 2026?,Distinct known customers (delivery customer) with an invoice.,397,yes
+Q12,What was the value of orders placed in September 2026?,"Orders by order date, excluding tax. Orders, not invoices.",4903377.15,yes
+Q13,How many orders were placed in September 2026?,Distinct orders by order date.,1935,yes
+Q14,How many orders placed in September 2026 had to be backordered?,Orders with a backorder raised against them.,193,yes
+Q15,How much did customers pay us in September 2026?,"Customer payments received, as a positive amount.",5682587.67,yes
+Q16,How much do customers owe us right now?,Sum of outstanding balance on customer transactions.,267011.44,yes
+Q17,Which customer owes us the most right now?,Known customer with the largest outstanding balance.,"Wingtip Toys (Birds, IL) | 28280.8",yes
+Q18,Who was our top salesperson by revenue in 2025?,"Salesperson on the invoice, revenue excluding tax.",Lily Code | 3781278.35,yes
+Q19,How much did revenue grow in September 2026 compared with September 2025?,"Percentage change, revenue excluding tax.",5.79,yes
+Q20,Which month of 2025 had the highest revenue?,"Calendar month by invoice date, revenue excluding tax.",2025-08 | 5223973.95,yes
