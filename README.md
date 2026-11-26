@@ -6,6 +6,10 @@ Is your AI dashboard right? 20 business questions with answers proven two indepe
 
 Claude (Opus 5.5) via claude.ai and the BigQuery connector, on the raw tables, 2026-10-09: **20 / 20**. See [results/](results/2026-10-09-claude-opus-5.5.md).
 
+Claude (Sonnet 5.5, Medium effort; the Opus run was High), same prompt, 2026-10-10: **20 / 20**. See [the answers](results/2026-10-10-claude-sonnet-5.5.csv).
+
+The 20 questions, their definitions and the golden answers: [golden20.csv](golden20.csv).
+
 The same method on a client's call-out data, three models: [I gave Claude Dashboards a 17-question exam](https://www.factsmith.co.za/insights/claude-dashboards-golden-questions/).
 
 ## Method
